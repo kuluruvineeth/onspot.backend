@@ -2,7 +2,7 @@
 
 # Onspot - An AI Powered Secured Utility Complaint System Cloud Computing
 
-## Onspot Core Backend (Object Detection + Flask API)
+## Onspot Core Backend (Object Detection + Database storage + Flask API)
 
 ### Introduction and Motivation
 
