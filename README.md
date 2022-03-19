@@ -255,7 +255,7 @@ For connecting your domain, search for Route 53 in the app bar and create a host
      <img src="https://github.com/kuluruvineeth/onspot.backend/blob/main/screenshots/postmanAPI%20Testing/Authority/api-profile-authority-data.png" alt="api">
      
    * /api/profile/authority/update:
-     <img "https://github.com/kuluruvineeth/onspot.backend/blob/main/screenshots/postmanAPI%20Testing/Authority/api-profile-authority-update.png" alt="api">
+     <img src="https://github.com/kuluruvineeth/onspot.backend/blob/main/screenshots/postmanAPI%20Testing/Authority/api-profile-authority-update.png" alt="api">
 
 #### Apache Set-Up
 
