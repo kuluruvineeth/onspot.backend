@@ -4,7 +4,7 @@
 
 ## Onspot Core Backend (Object Detection + Database storage + Flask API)
 
-### Introduction and Motivation
+### Introduction
 
 - A major problem being faced by municipalities around the world is maintaining the condition of roads be it summer, the monsoons (when it is at its worst) or any weather condition as a matter of fact. And although it’s the responsibility of the authorities to make sure the roads are free of damage, at times they overlook the problem, and most times don’t even know that the problem exists. According to indiatoday, the number of deaths over the past 3 years stands at 9300 and with over 25000 injuries. 
  
