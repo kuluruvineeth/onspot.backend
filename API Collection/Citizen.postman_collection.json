@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "42cbb4a5-de9f-45e3-bb0b-2599115ee6dc",
+		"name": "Citizen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api-detect-filename",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imgae_url\":\"https://www.onspt.click/flask_api/static/34008094451134207932139306136006580480.png\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/detect/single",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"detect",
+						"single"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-user-validate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":{\"emailId\":\"18bcs038@iiitdwd.ac.in\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/user/validate",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"validate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-profile-update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": {\r\n        \"userId\": \"1\",\r\n        \"emailId\": \"18bcs038@iiitdwd.ac.in\",\r\n        \"name\": \"karthick\",\r\n        \"photoURL\": \"https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fc%2Fcd%2FVijay_at_the_Nadigar_Sangam_Protest.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVijay_(actor)&tbnid=IF3MSRkzNuLCxM&vet=12ahUKEwjHpIu0r-j2AhU5X2wGHRicAroQMygAegUIARDUAQ..i&docid=vvXajLsm2WsHNM&w=1200&h=1800&itg=1&q=vijay%20actor&ved=2ahUKEwjHpIu0r-j2AhU5X2wGHRicAroQMygAegUIARDUAQ\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/profile/update",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"profile",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-submit-report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": {\r\n        \"description\": \"I found a value\",\r\n        \"location\": \"Bengaluru\",\r\n        \"locationLatLng\": {\r\n            \"lat\": 10,\r\n            \"lng\": 15\r\n        },\r\n        \"longitude\": \"15° 49' 41.253' N 78° 2' 14.205' E\",\r\n        \"imageURL\": \"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.cityworks.com%2Fwp-content%2Fuploads%2F2020%2F01%2Fpot-hole-blog.gif&imgrefurl=https%3A%2F%2Fwww.cityworks.com%2Fblog%2F10-fascinating-facts-about-potholes%2F&tbnid=LP13KlNrqpWjKM&vet=12ahUKEwjyscLosOj2AhVmQmwGHVDgAckQMygAegUIARDYAQ..i&docid=DGor1jBVgZOXeM&w=1200&h=628&q=pothole&ved=2ahUKEwjyscLosOj2AhVmQmwGHVDgAckQMygAegUIARDYAQ\",\r\n        \"severity\": 8,\r\n        \"userId\": \"1\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/submit/report",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"submit",
+						"report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "input",
+							"type": "file",
+							"src": "/D:/Major Project/input.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/upload",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

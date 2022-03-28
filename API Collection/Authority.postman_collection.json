@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "5509a59e-e546-41cd-a14e-c1b773f686f9",
+		"name": "Authority",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api-authority-reports-geonear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": {\r\n        \"authorityId\": \"112945513920895542589\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/authority/reports/geonear",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"authority",
+						"reports",
+						"geonear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-authority-send-email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": {\r\n        \"emailId\": \"18bcs038@iiitdwd.ac.in\",\r\n        \"message\": \"Hi Karthick! Thanks for sending\",\r\n        \"subject\": \"Regarding pothole\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "api/authority/send/email",
+					"host": [
+						"api"
+					],
+					"path": [
+						"authority",
+						"send",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-authority-update-report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":{\"severity\":\"9\",\"status\":\"Approved\",\"caseId\":\"1029691210\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/authority/update/report",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"authority",
+						"update",
+						"report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-authority-update-user-status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":{\"status\":\"blocked\",\"userId\":\"107650217403686224156\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/authority/update/user/status",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"authority",
+						"update",
+						"user",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-profile-authority-data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": {\r\n        \"authorityId\": \"112945513920895542589\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/profile/authority/data",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"profile",
+						"authority",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-profile-authority-update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": {\r\n        \"authorityId\": \"112945513920895542589\",\"emailId\":\"vineethreddy3268@gmail.com\",\"name\":\"Vineeth\",\"photoURL\":\"https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.toiimg.com%2Fphoto%2Fmsid-87470911%2F87470911.jpg%3F32922&imgrefurl=https%3A%2F%2Ftimesofindia.indiatimes.com%2Fentertainment%2Ftelugu%2Fmovies%2Fnews%2Fpawan-kalyan-tells-filmmakers-to-remove-power-star-tag-from-credits%2Farticleshow%2F87470911.cms&tbnid=pY8H5sPKJ9ZHdM&vet=12ahUKEwi-yu_luOj2AhXHKbcAHXzLDpkQMygAegUIARDTAQ..i&docid=O37c2OKE9BTwNM&w=1001&h=750&q=pawan%20kalyan&ved=2ahUKEwi-yu_luOj2AhXHKbcAHXzLDpkQMygAegUIARDTAQ\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/profile/authority/update",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"profile",
+						"authority",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-authority-check",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":{\"emailId\":\"vineethreddy3268@gmail.com\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/authority/check",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"authority",
+						"check"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
