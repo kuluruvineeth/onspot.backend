@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "58192fa8-31e0-4b1f-952c-384512b2482b",
+		"name": "Common",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api-reports-all",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/reports/all",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"reports",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-reports-comments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":{\"caseId\":\"1029691210\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/reports/comments",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"reports",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-reports",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":{\"userId\":\"117954990956994765891\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/reports",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api-submit-report-comment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"data\":{\"userType\":\"citizen\",\"commentText\":\"I almost died\",\"caseId\":\"1029691210\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/submit/report/comment",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"submit",
+						"report",
+						"comment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
