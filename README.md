@@ -24,7 +24,7 @@
 - Link to Authority App Demo: https://onspot.click/onspot.authority/
 
 #### Presentation
-- Link to Google slides Presentation: [ONPSOT PRESENTATION](https://docs.google.com/presentation/d/11WXTHG384vmLA67QShnrbcqOba3xjXWjqkf6utVPv64/edit#slide=id.g111b81d1d86_3_5)
+- Link to Google slides Presentation: [ONPSOT PRESENTATION](https://docs.google.com/presentation/d/1P4Lt6fRdd12uCuXuqxzsjmyRdCz3H8l3z4aSzKe88ys/edit#slide=id.p)
 
 #### Citizen App Repository
 
@@ -193,6 +193,7 @@ flow --pbLoad built_graph/yolo.pb --metaLoad built_graph/yolo.meta --imgdir samp
 <img src="https://github.com/kuluruvineeth/onspot.backend/blob/main/screenshots/architectural_tiers/architectural_tiers.png"/>
 
 ### Instructions to Set-Up and Deploy the Backend Application
+
 
 #### Amazon Web Instance Set-Up and Configuration
 
