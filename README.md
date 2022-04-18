@@ -142,7 +142,7 @@ flow --pbLoad built_graph/yolo.pb --metaLoad built_graph/yolo.meta --imgdir samp
 
 #### System Level Design
 
-- To be kept
+<img src="https://github.com/kuluruvineeth/onspot.backend/blob/main/screenshots/architectural_tiers/ONSPOT_Backend_sysdiagram.png" alt="System diagram backend">
 
 ### Key Features
 | Feature Name | App Usage |
