@@ -20,8 +20,7 @@
 
 #### Application demo
 
-- Link to our Citizen's App Demo: https://onspot.click/onspot/
-- Link to Authority App Demo: https://onspot.click/onspot.authority/
+- Link to Citizens's & Authority App Demo: [Onspot](https://drive.google.com/file/d/1vJKpptfbFEZm9mZFGpB1IJuM0eVFpSxD/view?usp=sharing)
 
 #### Presentation
 - Link to Google slides Presentation: [ONPSOT PRESENTATION](https://docs.google.com/presentation/d/1P4Lt6fRdd12uCuXuqxzsjmyRdCz3H8l3z4aSzKe88ys/edit#slide=id.p)
