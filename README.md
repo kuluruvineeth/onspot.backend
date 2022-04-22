@@ -273,7 +273,7 @@ For connecting your domain, search for Route 53 in the app bar and create a host
 * Offline Capabilities for the camera component.
 * Realtime Notifications in the application itself.
 * Linking via Social Platforms like twitter, facebook, etc.
-* News Feeds
+* News Feeds.
 * Interaction using a gamified approach to challenge peers using rewards.
 
 ### Note
