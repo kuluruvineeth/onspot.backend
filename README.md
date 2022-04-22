@@ -239,7 +239,7 @@ For connecting your domain, search for Route 53 in the app bar and create a host
   * /api/authority/check:
     <img src="https://github.com/kuluruvineeth/onspot.backend/blob/main/screenshots/postmanAPI%20Testing/Authority/api-authority-check.png" alt="api">
     
-  * /api/authority/reports/geonear
+  * /api/authority/reports/geonear:
     <img src="https://github.com/kuluruvineeth/onspot.backend/blob/main/screenshots/postmanAPI%20Testing/Authority/api-authority-reports-geonear.png" alt="api">
   
   * /api/authority/send/email:
@@ -265,7 +265,7 @@ For connecting your domain, search for Route 53 in the app bar and create a host
 
 - Follow this guide to setup a ssl certificate for your ubuntu ec2 instance [Guide](https://www.webcreta.com/how-to-letsencrypt-ssl-certificate-install-on-aws-ec2-ubuntu-instance/)
 
-#### Hurray! You've done it. Enjoy using the app and feel free to make contributions and raise pull requests. Run the app_controller python file to see your api running.
+#### Hurray! You've done it. Enjoy using the app and feel free to make contributions and raise pull requests. Run the flask_api python file to see your api running.
 
 ### Future Scope
 * Severity based Direction Renderer.
